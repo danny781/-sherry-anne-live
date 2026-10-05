@@ -10,8 +10,8 @@ export default function HomePage() {
           <Image
             src="/images/logo.png"
             alt="Take Up Space on Purpose — Sherry Anne Crowe"
-            width={1254}
-            height={1254}
+            width={1024}
+            height={1024}
             priority
             className="w-64 rounded-full shadow-luxury sm:w-80 md:w-96"
           />

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 const portfolio = [
   { src: "/images/sherry-5.jpg", alt: "Sherry Anne Crowe smiling in a black dress", width: 1500, height: 2100 },
   { src: "/images/sherry-8.jpg", alt: "Sherry Anne Crowe standing with arms crossed in a grey knit and denim", width: 1333, height: 2000 },
-  { src: "/images/model-3.jpg", alt: "Sherry Anne Crowe in a red gown holding an award at the TINFF Media Network step-and-repeat", width: 1600, height: 1200 },
+  { src: "/images/model-khush-bd.jpg", alt: "Sherry Anne Crowe in a black sculpted gown and beret", width: 428, height: 640 },
   { src: "/images/model-4.jpg", alt: "Sherry Anne Crowe in a grey wool wrap, belted, with leather trousers", width: 1200, height: 1600 },
   { src: "/images/model-5.jpg", alt: "Sherry Anne Crowe in a red gown and cape on the TINFF Fashion Week red carpet", width: 1066, height: 1600 },
-  { src: "/images/model-khush-bd.jpg", alt: "Sherry Anne Crowe in a black sculpted gown and beret", width: 428, height: 640 },
+  { src: "/images/model-3.jpg", alt: "Sherry Anne Crowe in a red gown holding an award at the TINFF Media Network step-and-repeat", width: 1600, height: 1200 },
   { src: "/images/model-khush-sari.jpg", alt: "Sherry Anne Crowe in a red and gold sari", width: 430, height: 640 },
   { src: "/images/model-mw.jpg", alt: "Sherry Anne Crowe in a sequined It Girl top with green feather shoulders", width: 512, height: 640 },
   { src: "/images/model-khush-paris.jpg", alt: "Sherry Anne Crowe walking a Paris street show in a purple silk coat", width: 512, height: 640 },
