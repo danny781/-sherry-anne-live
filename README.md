@@ -1,4 +1,4 @@
-# Sherry Anne Crowe — Take Up Space on Purpose
+# Sherry Anne Live
 
 Next.js (App Router) + Tailwind CSS v4 + TypeScript.
 
