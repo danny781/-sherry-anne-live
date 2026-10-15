@@ -49,7 +49,9 @@ export default function PastEventsPage() {
                 {event.detail && (
                   <p className="mt-1 text-sm text-brand-text-muted">{event.detail}</p>
                 )}
-                <p className="mt-2 font-script text-2xl text-brand-gold-primary">{event.role}</p>
+                {event.role && (
+                  <p className="mt-2 font-script text-2xl text-brand-gold-primary">{event.role}</p>
+                )}
               </li>
             ))}
           </ol>

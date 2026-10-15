@@ -61,6 +61,9 @@ export default function TalentPage() {
           </div>
 
           <aside className="border border-brand-gold-primary bg-brand-cream p-8 shadow-luxury lg:sticky lg:top-28">
+            <a href={mailto} className="btn-primary mb-8 w-full">
+              Email Representation
+            </a>
             <h2 className="font-serif text-2xl tracking-wide text-brand-text-main md:text-3xl">
               Representation
             </h2>
@@ -76,11 +79,6 @@ export default function TalentPage() {
                 <dd className="mt-1 font-sans text-brand-text-muted">Delinda Therrien</dd>
               </div>
             </dl>
-            <div className="mt-8 flex flex-col gap-3">
-              <a href={mailto} className="btn-primary">
-                Email Representation
-              </a>
-            </div>
           </aside>
         </div>
       </section>
