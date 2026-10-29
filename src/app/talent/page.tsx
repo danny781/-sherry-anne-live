@@ -41,27 +41,9 @@ export default function TalentPage() {
       </section>
 
       <section className="bg-brand-white py-24">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1.5fr_1fr] lg:items-start lg:px-10">
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6">
-            {portfolio.map((photo) => (
-              <figure
-                key={photo.src}
-                className="aspect-[4/5] overflow-hidden bg-brand-cream shadow-luxury"
-              >
-                <Image
-                  src={photo.src}
-                  alt={photo.alt}
-                  width={photo.width}
-                  height={photo.height}
-                  sizes="(min-width: 1024px) 20vw, (min-width: 768px) 30vw, 50vw"
-                  className="h-full w-full object-cover object-top"
-                />
-              </figure>
-            ))}
-          </div>
-
-          <aside className="border border-brand-gold-primary bg-brand-cream p-8 shadow-luxury lg:sticky lg:top-28">
-            <a href={mailto} className="btn-primary mb-8 w-full">
+        <div className="mx-auto max-w-7xl space-y-12 px-6 lg:px-10">
+          <aside className="border border-brand-gold-primary bg-brand-cream p-8 shadow-luxury">
+            <a href={mailto} className="btn-primary mb-8 w-full md:w-auto">
               Email Representation
             </a>
             <h2 className="font-serif text-2xl tracking-wide text-brand-text-main md:text-3xl">
@@ -80,6 +62,23 @@ export default function TalentPage() {
               </div>
             </dl>
           </aside>
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6">
+            {portfolio.map((photo) => (
+              <figure
+                key={photo.src}
+                className="aspect-[4/5] overflow-hidden bg-brand-cream shadow-luxury"
+              >
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  width={photo.width}
+                  height={photo.height}
+                  sizes="(min-width: 1024px) 20vw, (min-width: 768px) 30vw, 50vw"
+                  className="h-full w-full object-cover object-top"
+                />
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
     </>

@@ -26,6 +26,7 @@ export const pastEvents: PastEvent[] = [
     date: "May 2026",
     title: "Read 2 Achieve Youth Program",
     detail: "For the Delmore Buddy Daye Learning Institute",
+    role: "Guest Speaker",
   },
   {
     date: "October 2025",
